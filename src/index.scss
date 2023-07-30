@@ -1,0 +1,20 @@
+@import 'primeflex/primeflex.css';
+@import './style.scss';
+
+:root {
+	color: #fff;
+	background: #121212;
+	font-family: 'Roboto Mono', 'monospace';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('../public/Styles/Fonts/RobotoMono-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
